@@ -1,0 +1,14 @@
+name: gcp-bucket
+description: Test GCP bucket stack
+runtime: nodejs
+template:
+  config:
+    bucketName:
+      description: The name of the bucket.
+    gcp:project:
+      description: The Google Cloud project to deploy into
+    gcp:zone:
+      description: The Google Cloud zone
+    gcp:credentials:
+      description: Your GCP Service Account key contents for GKE Administration
+      secret: true

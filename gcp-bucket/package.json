@@ -1,0 +1,6 @@
+{
+  "name": "gcp-bucket",
+  "dependencies": {
+    "@pulumi/google-native": "^0.8.0"
+  }
+}
