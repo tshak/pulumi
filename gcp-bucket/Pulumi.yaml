@@ -5,10 +5,11 @@ template:
   config:
     bucketName:
       description: The name of the bucket.
-    gcp:project:
+    google-native:project:
       description: The Google Cloud project to deploy into
-    gcp:zone:
+    google-native:zone:
       description: The Google Cloud zone
-    gcp:credentials:
+      default: us-east4
+    google-native:credentials:
       description: Your GCP Service Account key contents for GKE Administration
       secret: true
